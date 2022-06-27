@@ -1,0 +1,87 @@
+@media screen and (max-width:770px) {
+    .banner-text h1{
+        font-size:44px;
+        font-family: 'Lobster', cursive;
+    }
+    
+    .banner-btn a{
+        display:block;
+        margin:20px auto;
+    }
+    #sideNav{
+        width:240px;
+    }
+    #menuBtn{
+        width: 40px;
+        height: 40px;
+    }
+    #menuBtn img{
+        width:20px;
+        margin-top: 11px;
+    }
+    /*Features*/
+    .title-text h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width:70%;
+        border-radius:15px;
+    }
+    /*service*/
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom:30px;
+    }
+    .service-desc p{
+        font-size:12px;
+    }
+    hr{
+        margin:5px auto;
+    }
+    .single-service:hover .service-desc{
+        bottom: 25% !important;
+        opacity: 1;
+    }
+
+    /*testimonial*/
+    .testimonial-column{
+        flex-basis: 100%;
+    }
+    .testimonial-column:hover{
+        transform: translateY(8px);
+    }
+
+    /*footer*/
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .footer-img{
+        top:25%;
+    }
+    
+}
+@media screen and (max-height:770px) {
+
+    .logo{
+        width: 120px;
+        position: absolute;
+        top: 4%;
+        right:10%;
+    }
+    .banner-text{
+        text-align: center;
+        color: #fff;
+        padding-top:130px;
+    
+    }
+    
+}
